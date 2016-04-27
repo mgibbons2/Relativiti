@@ -10,6 +10,11 @@
 </style>
 <body>
 	<script>
+
+		var noteArray = ["C3", "B2", "G5"];
+		var typeArray = [".5", ".25", ".5"];
+	for(var i = 0; i < noteArray.length(); i++){
+
 		var lines = new Image();
 		lines.src = "LinesSquare.png";
 		document.body.appendChild(lines);
@@ -27,6 +32,7 @@
 		note.style.position = 'absolute';
 		note.style.left = '50px';
 		note.style.top = '-32.25px';
+	}
 	</script>
 </body>
 </html>
